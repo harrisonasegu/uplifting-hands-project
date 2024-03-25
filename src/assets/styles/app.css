@@ -1,0 +1,19 @@
+/* Custom Font Family */
+* {
+  @font-face {
+    font-family: 'Inter';
+    src: url('@src/assets/fonts/Inter-Thin.woff');
+  }
+}
+/* -------------------- */
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+@media (hover: hover) {
+  a:not(.router-link-exact-active):hover {
+    transition: all 0.4s;
+    color: #3C5A99 /* $base-color-1 in scss color variable */;
+  }
+}
